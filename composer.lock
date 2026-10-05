@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97a32bbc99bb689b3fa780ea1300e6eb",
+    "content-hash": "f1e52191d1b3fdac7ca1dcf8f1586bc8",
     "packages": [
         {
             "name": "brick/math",
@@ -3809,6 +3809,54 @@
                 "source": "https://github.com/ramsey/uuid/tree/4.9.3"
             },
             "time": "2026-06-18T03:57:49+00:00"
+        },
+        {
+            "name": "soft-tech-mx/laravel-logger",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SoftTechMX/lib-php-logger.git",
+                "reference": "8eec45c4c764de78b0ecf9e1134a53cf72126c44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SoftTechMX/lib-php-logger/zipball/8eec45c4c764de78b0ecf9e1134a53cf72126c44",
+                "reference": "8eec45c4c764de78b0ecf9e1134a53cf72126c44",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SoftTechMX\\LaravelLoggerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SoftTechMX\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bayron Vazquez",
+                    "email": "bayronnjonathan@gmail.com"
+                }
+            ],
+            "description": "Paquete Laravel para registrar errores en la base de datos y en ficheros de texto.",
+            "support": {
+                "issues": "https://github.com/SoftTechMX/lib-php-logger/issues",
+                "source": "https://github.com/SoftTechMX/lib-php-logger/tree/v1.1.1"
+            },
+            "time": "2026-09-01T03:40:00+00:00"
         },
         {
             "name": "spatie/laravel-permission",

@@ -12,6 +12,7 @@
         "laravel/ui": "^4.6",
         "livewire/livewire": "^3",
         "phpoffice/phpspreadsheet": "^5.10",
+        "soft-tech-mx/laravel-logger": "^1.1",
         "spatie/laravel-permission": "^6.25"
     },
     "require-dev": {
